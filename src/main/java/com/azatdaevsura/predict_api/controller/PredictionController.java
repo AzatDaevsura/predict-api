@@ -20,4 +20,6 @@ public class PredictionController {
     public String createUser() {
         return "User created successfully.";
     }
+
+
 }
