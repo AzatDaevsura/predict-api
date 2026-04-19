@@ -23,6 +23,10 @@ public class UserController {
     public String getUserById() {
         return "User details for ID: {id}";
     }
+    @GetMapping("user/{id}/prediction")
+    public String getPredictionForUser() {
+        return "Prediction result for user with ID: {id}";
+    }
 
 
 
