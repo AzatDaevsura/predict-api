@@ -16,10 +16,7 @@ public class PredictionController {
         return "This is a prediction result.";
     }
 
-    @PostMapping ("/user")
-    public String createUser() {
-        return "User created successfully.";
-    }
+
 
 
 }
