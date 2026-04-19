@@ -19,6 +19,10 @@ public class UserController {
     public  String getAllUsers() {
         return "List of Users";
     }
+    @GetMapping("/user/{id}")
+    public String getUserById() {
+        return "User details for ID: {id}";
+    }
 
 
 
