@@ -16,6 +16,11 @@ public class PredictionController {
         return "This is a prediction result.";
     }
 
+    @PostMapping("/user/{id}/predict")
+    public String predictForUser() {
+        return "Prediction result for user with ID: {id}";
+    }
+
 
 
 
